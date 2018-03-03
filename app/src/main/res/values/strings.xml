@@ -1,0 +1,44 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">App Engine</string>
+
+    <!--Commmon-->
+    <string name="phone_number_digit">1234567890</string>
+    <string name="image_content_description">Loading…</string>
+    <!--Commmon end-->
+
+    <!--Authententication Strings-->
+    <string name="login_username">Username</string>
+    <string name="login_password">Password</string>
+    <string name="login_btn_txt">Sign In</string>
+    <string name="login_create_account_txt">Create Account</string>
+    <string name="login_forget_password_txt">Forgot Password?</string>
+    <string name="create_account_text" tools:ignore="UnusedResources">Create Account</string>
+    <string name="create_account_first_name">First Name</string>
+    <string name="create_account_last_name">Last Name</string>
+    <string name="create_account_email">Email</string>
+    <string name="create_account_password" tools:ignore="UnusedResources">Password</string>
+    <string name="create_account_confirm_password">Confirm Password</string>
+    <string name="create_account_register">Register</string>
+    <string name="title_activity_forgot_password" tools:ignore="UnusedResources">ForgotPasswordActivity</string>
+    <string name="forgot_password">Forgot Password</string>
+    <string name="edit_account_menu_page_title" tools:ignore="UnusedResources">Edit Account</string>
+    <string name="top_bar_back_button_content_description">Top Bar Back Button</string>
+    <string name="splash_screen_logo_content_description">Splash screen logo</string>
+    <string name="forgot_password_topbar_menu_title">Forgot Password</string>
+    <!--Authententication Strings Finished-->
+
+
+    <!--Navigation Menu App Drawer-->
+    <string name="nav_default_user_name">Client Name</string>
+    <string name="nav_default_user_email">clientemail@email.com</string>
+    <string name="nav_header">Dashboard</string>
+    <string name="nav_my_bookings">My Bookings</string>
+    <string name="nav_my_vouchers">My Vouchers</string>
+    <string name="nav_share_location">Share Location</string>
+    <string name="nav_dashboard">Dashboard</string>
+    <!--Navigation Menu App Drawer end-->
+
+    <string name="share_location_cur_loc_text">Current Location</string>
+
+
+</resources>

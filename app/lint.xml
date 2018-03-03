@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <issue id="IconDipSize">
+        <ignore path="src/main/res/mipmap-hdpi/splash_logo.png" />
+        <ignore path="src/main/res/mipmap-hdpi/splash_logo.png" />
+        <ignore path="src/main/res/mipmap-hdpi/welltravel_logo.png" />
+        <ignore path="src/main/res/mipmap-xhdpi/splash_logo.png" />
+        <ignore path="src/main/res/mipmap-xhdpi/welltravel_logo.png" />
+        <ignore path="src/main/res/mipmap-xxhdpi/splash_logo.png" />
+        <ignore path="src/main/res/mipmap-xxhdpi/welltravel_logo.png" />
+    </issue>
+    <issue id="IconDuplicates">
+        <ignore path="src/main/res/drawable-hdpi/account_icon.png" />
+        <ignore path="src/main/res/drawable-mdpi/account_icon_36dp.png" />
+        <ignore path="src/main/res/drawable-xhdpi/account_icon.png" />
+        <ignore path="src/main/res/drawable-xhdpi/account_icon_36dp.png" />
+        <ignore path="src/main/res/drawable-xhdpi/account_icon_36dp.png" />
+        <ignore path="src/main/res/drawable-xxhdpi/account_icon.png" />
+    </issue>
+    <issue id="IconLauncherShape">
+        <ignore path="src/main/res/mipmap-hdpi/ic_launcher.png" />
+        <ignore path="src/main/res/mipmap-mdpi/ic_launcher.png" />
+        <ignore path="src/main/res/mipmap-xhdpi/ic_launcher.png" />
+        <ignore path="src/main/res/mipmap-xxhdpi/ic_launcher.png" />
+        <ignore path="src/main/res/mipmap-xxxhdpi/ic_launcher.png" />
+    </issue>
+    <issue id="IconLocation">
+        <ignore path="src/main/res/drawable/logo_final.png" />
+        <ignore path="src/main/res/drawable/cross_icon.png" />
+        <ignore path="src/main/res/drawable/check.png" />
+        <ignore path="src/main/res/drawable/uncheck.png" />
+        <ignore path="src/main/res/drawable/flight_from_to_driection.png" />
+    </issue>
+    <issue id="UnusedResources">
+        <ignore path="src/main/res/drawable/logo_final.png" />
+        <ignore path="src/main/res/mipmap-hdpi/app_icon.png" />
+        <ignore path="src/main/res/mipmap-hdpi/splash.png" />
+        <ignore path="src/main/res/mipmap-hdpi/welltravel_logo.png" />
+        <ignore path="src/main/res/mipmap-xhdpi/splash.png" />
+        <ignore path="src/main/res/mipmap-xhdpi/welltravel_logo.png" />
+        <ignore path="src/main/res/mipmap-xxhdpi/splash.png" />
+        <ignore path="src/main/res/mipmap-xxhdpi/welltravel_logo.png" />
+    </issue>
+</lint>

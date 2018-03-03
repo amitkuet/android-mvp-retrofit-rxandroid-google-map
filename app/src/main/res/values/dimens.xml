@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <dimen name="common_text_size_20sp">20sp</dimen>
+    <dimen name="common_text_size_24sp">24sp</dimen>
+    <dimen name="common_text_size_30sp">30sp</dimen>
+    <dimen name="common_text_size_22sp">22sp</dimen>
+    <dimen name="common_text_size_40sp">40sp</dimen>
+    <dimen name="fab_margin" tools:ignore="UnusedResources">16dp</dimen>
+    <dimen name="topbar_height" tools:ignore="UnusedResources">151dp</dimen>
+    <dimen name="common_margin_35dp">35dp</dimen>
+    <dimen name="common_height_0dp">0dp</dimen>
+    <dimen name="common_width_0dp" tools:ignore="UnusedResources">0dp</dimen>
+    <dimen name="authentication_login_editbox_height">60dp</dimen>
+    <dimen name="authentication_login_editbox_padding">20dp</dimen>
+    <dimen name="authentication_login_btn_50dp">50dp</dimen>
+    <dimen name="authentication_login_text_20dp" tools:ignore="UnusedResources">20dp</dimen>
+    <dimen name="authentication_login_margin_minus_10dp">-10dp</dimen>
+    <dimen name="authentication_login_margin_minus_15dp">-15dp</dimen>
+    <dimen name="authentication_login_margin_15dp">15dp</dimen>
+    <dimen name="listview_button_bottom_margin">45dp</dimen>
+    <dimen name="height_45dp" tools:ignore="UnusedResources">45dp</dimen>
+    <dimen name="text_size_18sp">18sp</dimen>
+    <dimen name="common_4dp" tools:ignore="UnusedResources">4dp</dimen>
+    <dimen name="common_2dp">2dp</dimen>
+    <dimen name="common_8dp">8dp</dimen>
+    <dimen name="common_12dp">12dp</dimen>
+    <dimen name="common_15dp">15dp</dimen>
+    <dimen name="common_5dp">5dp</dimen>
+    <dimen name="common_70dp">70dp</dimen>
+    <dimen name="common_20dp">20dp</dimen>
+    <dimen name="common_30dp">30dp</dimen>
+    <dimen name="common_80dp">80dp</dimen>
+    <dimen name="common_90dp">90dp</dimen>
+    <dimen name="common_100dp">100dp</dimen>
+    <dimen name="common_250dp">250dp</dimen>
+    <dimen name="common_300dp">300dp</dimen>
+    <dimen name="common_120dp" tools:ignore="UnusedResources">120dp</dimen>
+    <dimen name="common_50dp" tools:ignore="UnusedResources">50dp</dimen>
+    <dimen name="common_60dp">60dp</dimen>
+    <dimen name="common_13dp">13dp</dimen>
+    <dimen name="common_25dp">25dp</dimen>
+    <dimen name="common_45dp">45dp</dimen>
+    <dimen name="common_57dp">57dp</dimen>
+    <dimen name="common_35dp">35dp</dimen>
+    <dimen name="common_26dp">26dp</dimen>
+    <dimen name="common_negative_70dp">-70dp</dimen>
+    <dimen name="common_negative_85dp">-85dp</dimen>
+    <dimen name="common_10dp">10dp</dimen>
+    <dimen name="common_1dp">1dp</dimen>
+    <dimen name="common_40dp">40dp</dimen>
+    <dimen name="common_0dp">0dp</dimen>
+    <dimen name="common_150dp">150dp</dimen>
+    <dimen name="common_180dp">180dp</dimen>
+
+</resources>

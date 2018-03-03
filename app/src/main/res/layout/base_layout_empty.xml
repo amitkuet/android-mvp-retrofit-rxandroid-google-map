@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/mainViewContainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+
+    </LinearLayout>
+
+    <include android:id="@+id/loadingLayout" layout="@layout/loading_style" android:visibility="invisible" android:layout_width="match_parent"
+             android:layout_height="match_parent" />
+
+    <include android:id="@+id/noInternet" layout="@layout/util_no_internet" android:visibility="invisible" android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</RelativeLayout>

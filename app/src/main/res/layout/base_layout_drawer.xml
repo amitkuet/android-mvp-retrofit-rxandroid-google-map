@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <include layout="@layout/nav_bar_common" android:layout_width="match_parent"
+                 android:layout_height="wrap_content" />
+
+        <android.support.v4.widget.DrawerLayout
+            android:id="@+id/navDrawerLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:id="@+id/mainViewContainer"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+            </LinearLayout>
+
+            <android.support.design.widget.NavigationView
+                android:id="@+id/navigationView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/colorWhitishBlue"
+                android:layout_gravity="start">
+
+                <ScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:id="@+id/menuItemList"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <include layout="@layout/activity_main_navigation_header" android:layout_width="match_parent"
+                                 android:layout_height="wrap_content" android:layout_marginBottom="@dimen/common_15dp" />
+
+                    </LinearLayout>
+                </ScrollView>
+
+            </android.support.design.widget.NavigationView>
+
+        </android.support.v4.widget.DrawerLayout>
+
+    </LinearLayout>
+
+    <include android:id="@+id/loadingLayout" layout="@layout/loading_style" android:visibility="invisible" android:layout_width="match_parent"
+             android:layout_height="match_parent" />
+
+    <include android:id="@+id/noInternet" layout="@layout/util_no_internet" android:visibility="invisible" android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+</RelativeLayout>

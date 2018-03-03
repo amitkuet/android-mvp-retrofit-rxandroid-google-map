@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorSplashBg" tools:ignore="UnusedResources">#f0f0f0</color>
+    <color name="colorDarkBlackandBlue">#2f5b84</color>
+    <color name="colorWhiteText">#ddedff</color>
+    <color name="colorWhitishBlue">#d9eaff</color>
+    <color name="colorYellowBtn" tools:ignore="UnusedResources">#f7c04b</color>
+    <color name="navBarBg">#2f5b84</color>
+    <color name="grayIshShadow">#D6D6D6</color>
+    <color name="colorSigninBtn">#1d72de</color>
+    <color name="colorForgetPassBottomBg" tools:ignore="UnusedResources">#e9f3ff</color>
+    <color name="colorWhite">#ffffff</color>
+    <color name="colorBlueBg">#388dfa</color>
+    <color name="colorTransparentBlack">#80000000</color>
+    <color name="colorEditProfileBackground" tools:ignore="UnusedResources">#f2eded</color>
+    <color name="colorEditProfileBtnBg" tools:ignore="UnusedResources">#FDFDFD</color>
+    <color name="colorEditProfileBottom">#EBEBEB</color>
+    <color name="colorEditProfileText">#686868</color>
+    <color name="colorTransparent">#0000</color>
+    <color name="colorButtonBlack">#535354</color>
+    <color name="createAccountText">#d9eaff</color>
+    <color name="singinTextField">#386595</color>
+    <color name="colorBlack">#000000</color>
+    <color name="tabSelectedColor">#4AA0D4</color>
+    <color name="colorGreen">#008000</color>
+    <color name="whiteTransparent">#D8FFFFFF</color>
+</resources>

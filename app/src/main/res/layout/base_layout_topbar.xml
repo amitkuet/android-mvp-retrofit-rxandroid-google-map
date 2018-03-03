@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@android:dimen/app_icon_size"
+            android:orientation="horizontal">
+
+            <include layout="@layout/module_top_bar" android:layout_width="match_parent"
+                     android:layout_height="@android:dimen/app_icon_size" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/mainViewContainer"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <include android:id="@+id/loadingLayout" layout="@layout/loading_style" android:visibility="invisible" android:layout_width="match_parent"
+             android:layout_height="match_parent" />
+
+    <include android:id="@+id/noInternet" layout="@layout/util_no_internet" android:visibility="invisible" android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</RelativeLayout>

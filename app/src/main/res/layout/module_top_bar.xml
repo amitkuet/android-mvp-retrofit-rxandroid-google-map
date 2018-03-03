@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="@android:dimen/app_icon_size"
+    android:background="@color/navBarBg"
+    tools:ignore="Overdraw">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        tools:ignore="UselessParent">
+
+        <ImageButton
+            android:id="@+id/moduleTopBarBackBtn"
+            android:layout_width="@android:dimen/app_icon_size"
+            android:layout_height="@android:dimen/app_icon_size"
+            android:background="@android:color/transparent"
+            app:srcCompat="@mipmap/ic_keyboard_arrow_left_white_48dp"
+            android:contentDescription="@string/top_bar_back_button_content_description"/>
+
+        <TextView
+            android:id="@+id/navbarTitle"
+            android:layout_width="match_parent"
+            android:layout_height="@android:dimen/app_icon_size"
+            android:gravity="center_horizontal|center_vertical"
+            android:textAlignment="center"
+            android:textColor="@color/colorWhiteText"
+            android:textSize="@dimen/common_text_size_24sp"
+            android:text="@string/login_create_account_txt" />
+    </RelativeLayout>
+</LinearLayout>
